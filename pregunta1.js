@@ -4,11 +4,7 @@
  * @param {number[]} integers 
  */
 function findOutlier(integers) {
-    const even = n => n % 2 === 0
-    const odd = n => n % 2 === 1   
-    return integers.slice(0,3).filter(even).length >= 2 
-        ? integers.find(odd)
-        : integers.find(even) 
+    
 }
 
 

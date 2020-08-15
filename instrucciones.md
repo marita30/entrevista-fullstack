@@ -2,7 +2,7 @@
 
 ## Pregunta 1 -  Encuentra el 'outlier' de paridad
 
-Dado un arreglo de enteros (con un mínimo de 3 elementos, pero puede ser bien grande), el cual está compuesto en su totalidad por números pares o impares, excepto por un elemento, el outlier. Escriba un método que encuentre ese outlier.
+Dado un arreglo de enteros (con un mínimo de 3 elementos, pero puede ser bien grande), el cual está compuesto en su totalidad por números pares o impares, excepto por un elemento (el outlier), escriba un método que encuentre ese outlier.
 
 Esta función debe ser implementada en JavaScript y no se pueden utilizar librerias externas. Completa la función en el archivo pregunta1.js. 
 

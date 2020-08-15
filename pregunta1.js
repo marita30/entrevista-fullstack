@@ -3,8 +3,19 @@
  * 
  * @param {number[]} integers 
  */
-function findOutlier(integers) {
-    
+
+const checkIntegers = (n) => {
+    return  n % 2 === 0 /* True or false */
+}
+
+
+const findOutlier = (integers) => {
+    const pares = []
+    const impares = []
+    integers.forEach(integer => {
+        checkIntegers(integer) ? pares.push(integer) : impares.push(integer)
+    })
+    return pares.length === 1 ? pares[0] : impares[0]
 }
 
 
